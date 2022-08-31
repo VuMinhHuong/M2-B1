@@ -171,3 +171,73 @@
 // }
 // let a = [1,2,3,4,5,6];
 // console.log(a.filter(fil));
+//==========================================
+//Bài 17:
+// //Mảng ví dụ:
+// var members = [
+//     { name: 'Lan', gender: 'female' },
+//     { name: 'Linh', gender: 'female' },
+//     { name: 'Trung', gender: 'male' },
+//     { name: 'Peter', gender: 'gay' },
+//     ];
+
+// //Nhập mảng object:
+// var members = [];
+// var obj = {};
+// let n = prompt("Input number of array");
+// for (let i = 0; i <= n-1; i ++) {
+//     let name1 = prompt(`Input name ${i} of members`);
+//     let gender1 = prompt(`Input gender ${i} of members`);
+//     obj.name = name1;
+//     obj.gender = gender1;
+//     members.push(obj)
+// }
+// console.log(members);
+
+// console.log(members[0].gender);
+
+// //Dùng hàm tìm female:
+// function fil(o) {
+//     if(o.gender === 'female'){
+//         return o;
+//     }
+// }
+// console.log(members.filter(fil));
+
+
+//==============================
+//Bài 18:
+// //Nhập vào mảng số:
+// let arr = [];
+// let n = prompt('Nhập số phần tử của mảng:');
+// for(let i = 0; i < n; i++){
+//     let arrTemp = prompt(`Phần tử thứ ${i} là:`);
+//     arr.push(arrTemp);
+// }
+// console.log(arr);
+// //Dùng fill để trả về số chẵn đầu tiên
+// function fun(ref) {
+//     return ref % 2 === 0;
+// }
+// console.log(arr.find(fun));
+
+//==============================
+//Bài 19:
+//Nhập mảng:
+// let n = prompt('Nhập số phần tử của mảng:');
+// let arr = [];
+// for(let i = 0; i < n; i++){
+//     let arrTemp = prompt(`Phần tử thứ ${i} là:`);
+//     arr.push(arrTemp);
+// }
+// //Nhập số cần chia hết:
+// let num = prompt('Nhập số mà phần tử đầu tiên trong mảng chia hết:');
+
+// function findInArr(ar) {
+//     return ar%num === 0;
+// };
+// console.log(arr.find(findInArr));
+//================================
+//Bài 20
+
+
